@@ -24,7 +24,7 @@ Route::get('articles', 'ArticleController@index');
 Route::get('article/{id}', 'ArticleController@show');
 
 // Create new article
-Route::post('article', 'ArticleController@index');
+Route::post('article', 'ArticleController@store');
 
 // Update article
 Route::put('article', 'ArticleController@store');
